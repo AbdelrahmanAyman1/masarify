@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:masarify/screens/custom_animated_splash_screen.dart';
 import 'package:masarify/screens/on_boarding.dart';
-import 'package:masarify/screens/home_screen.dart';
 
 class MasarifyApp extends StatelessWidget {
   const MasarifyApp({super.key});
