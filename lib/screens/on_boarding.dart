@@ -19,9 +19,9 @@ class CustomAnimatedSplashScreen extends StatelessWidget {
             child: Center(
               child: AnimatedSplashScreen(
                 splash: 'assets/images/splash_icon.gif',
-                nextRoute: HomeScreen.routeName,
+                nextRoute: OnBoarding.routeName,
                 splashTransition: SplashTransition.slideTransition,
-                nextScreen: HomeScreen(),
+                nextScreen: OnBoarding(),
                 backgroundColor: Color(0xff2A7C76),
                 splashIconSize: double.infinity,
                 duration: 4000,

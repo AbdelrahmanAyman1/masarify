@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:masarify/screens/custom_animated_splash_screen.dart';
+import 'package:masarify/screens/on_boarding.dart';
 import 'package:masarify/screens/home_screen.dart';
 
 class MasarifyApp extends StatelessWidget {
@@ -13,7 +13,7 @@ class MasarifyApp extends StatelessWidget {
       routes: {
         CustomAnimatedSplashScreen.routeName:
             (context) => const CustomAnimatedSplashScreen(),
-        HomeScreen.routeName: (context) => const HomeScreen(),
+        OnBoarding.routeName: (context) => const OnBoarding(),
       },
     );
   }
