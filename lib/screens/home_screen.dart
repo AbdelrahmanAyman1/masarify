@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class OnBoarding extends StatelessWidget {
-  static String routeName = '/';
+  static String routeName = 'OnBoarding';
   const OnBoarding({super.key});
 
   @override
